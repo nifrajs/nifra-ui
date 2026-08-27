@@ -39,7 +39,7 @@ export function stylexVite() {
       const metadata = result?.metadata as { stylex?: unknown[] } | undefined
       if (metadata?.stylex) rules.push(...metadata.stylex)
       if (!result?.code) return
-      return `${result.code}\nimport ${JSON.stringify(virtualCss)}`
+      return `${result.code}\nimport ${JSON.stringify(virtualCss)};\n`
     },
     resolveId(id: string) {
       return id === virtualCss ? `\0${virtualCss}` : undefined

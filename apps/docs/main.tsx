@@ -86,6 +86,7 @@ function App() {
   ])
   const [toastOpen, setToastOpen] = useState(true)
   const [approved, setApproved] = useState(false)
+  const [model, setModel] = useState("Nifra Scout")
 
   const cycleTheme = () =>
     setTheme(
@@ -348,7 +349,8 @@ function App() {
                             "Codex review",
                             "Local verifier",
                           ]}
-                          value="Nifra Scout"
+                          value={model}
+                          onValueChange={setModel}
                         />
                       </UI.Inline>
                     </UI.CardHeader>
