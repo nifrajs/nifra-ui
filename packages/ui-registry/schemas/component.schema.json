@@ -1,0 +1,43 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://ui.nifra.dev/schemas/component.schema.json",
+  "type": "object",
+  "required": [
+    "name",
+    "category",
+    "description",
+    "status",
+    "sourceFiles",
+    "exportName",
+    "states",
+    "accessibility",
+    "agentNotes"
+  ],
+  "properties": {
+    "name": { "type": "string", "pattern": "^[A-Z][A-Za-z0-9]+$" },
+    "category": {
+      "enum": [
+        "foundation",
+        "action",
+        "form",
+        "navigation",
+        "overlay",
+        "feedback",
+        "data",
+        "agent"
+      ]
+    },
+    "description": { "type": "string", "minLength": 1 },
+    "status": { "enum": ["implemented", "planned"] },
+    "sourceFiles": {
+      "type": "array",
+      "items": { "type": "string" },
+      "minItems": 1
+    },
+    "exportName": { "type": "string", "pattern": "^[A-Z][A-Za-z0-9]+$" },
+    "states": { "type": "array", "items": { "type": "string" } },
+    "accessibility": { "type": "array", "items": { "type": "string" } },
+    "agentNotes": { "type": "array", "items": { "type": "string" } }
+  },
+  "additionalProperties": false
+}

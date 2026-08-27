@@ -1,0 +1,2168 @@
+{
+  "schemaVersion": "1.0",
+  "packageName": "@nifrajs/ui",
+  "styling": "StyleX",
+  "sourceOwned": true,
+  "components": [
+    {
+      "name": "ThemeProvider",
+      "category": "foundation",
+      "description": "A semantic token context for light, dark, and high contrast.",
+      "status": "implemented",
+      "sourceFiles": ["src/components/components.tsx"],
+      "exportName": "ThemeProvider",
+      "states": ["default", "focus", "disabled"],
+      "accessibility": [
+        "semantic HTML",
+        "keyboard reachable",
+        "visible focus state"
+      ],
+      "agentNotes": [
+        "Prefer the documented variant API over styling strings.",
+        "Inspect the registry before composing."
+      ]
+    },
+    {
+      "name": "ThemeScript",
+      "category": "foundation",
+      "description": "ThemeScript with StyleX tokens and an agent-readable contract.",
+      "status": "implemented",
+      "sourceFiles": ["src/components/components.tsx"],
+      "exportName": "ThemeScript",
+      "states": ["default", "focus", "disabled"],
+      "accessibility": [
+        "semantic HTML",
+        "keyboard reachable",
+        "visible focus state"
+      ],
+      "agentNotes": [
+        "Prefer the documented variant API over styling strings.",
+        "Inspect the registry before composing."
+      ]
+    },
+    {
+      "name": "Icon",
+      "category": "foundation",
+      "description": "Icon with StyleX tokens and an agent-readable contract.",
+      "status": "implemented",
+      "sourceFiles": ["src/components/components.tsx"],
+      "exportName": "Icon",
+      "states": ["default", "focus", "disabled"],
+      "accessibility": [
+        "semantic HTML",
+        "keyboard reachable",
+        "visible focus state"
+      ],
+      "agentNotes": [
+        "Prefer the documented variant API over styling strings.",
+        "Inspect the registry before composing."
+      ]
+    },
+    {
+      "name": "Portal",
+      "category": "foundation",
+      "description": "Portal with StyleX tokens and an agent-readable contract.",
+      "status": "implemented",
+      "sourceFiles": ["src/components/components.tsx"],
+      "exportName": "Portal",
+      "states": ["default", "focus", "disabled"],
+      "accessibility": [
+        "semantic HTML",
+        "keyboard reachable",
+        "visible focus state"
+      ],
+      "agentNotes": [
+        "Prefer the documented variant API over styling strings.",
+        "Inspect the registry before composing."
+      ]
+    },
+    {
+      "name": "Slot",
+      "category": "foundation",
+      "description": "Slot with StyleX tokens and an agent-readable contract.",
+      "status": "implemented",
+      "sourceFiles": ["src/components/components.tsx"],
+      "exportName": "Slot",
+      "states": ["default", "focus", "disabled"],
+      "accessibility": [
+        "semantic HTML",
+        "keyboard reachable",
+        "visible focus state"
+      ],
+      "agentNotes": [
+        "Prefer the documented variant API over styling strings.",
+        "Inspect the registry before composing."
+      ]
+    },
+    {
+      "name": "VisuallyHidden",
+      "category": "foundation",
+      "description": "VisuallyHidden with StyleX tokens and an agent-readable contract.",
+      "status": "implemented",
+      "sourceFiles": ["src/components/components.tsx"],
+      "exportName": "VisuallyHidden",
+      "states": ["default", "focus", "disabled"],
+      "accessibility": [
+        "semantic HTML",
+        "keyboard reachable",
+        "visible focus state"
+      ],
+      "agentNotes": [
+        "Prefer the documented variant API over styling strings.",
+        "Inspect the registry before composing."
+      ]
+    },
+    {
+      "name": "FocusRing",
+      "category": "foundation",
+      "description": "FocusRing with StyleX tokens and an agent-readable contract.",
+      "status": "implemented",
+      "sourceFiles": ["src/components/components.tsx"],
+      "exportName": "FocusRing",
+      "states": ["default", "focus", "disabled"],
+      "accessibility": [
+        "semantic HTML",
+        "keyboard reachable",
+        "visible focus state"
+      ],
+      "agentNotes": [
+        "Prefer the documented variant API over styling strings.",
+        "Inspect the registry before composing."
+      ]
+    },
+    {
+      "name": "Container",
+      "category": "foundation",
+      "description": "Container with StyleX tokens and an agent-readable contract.",
+      "status": "implemented",
+      "sourceFiles": ["src/components/components.tsx"],
+      "exportName": "Container",
+      "states": ["default", "focus", "disabled"],
+      "accessibility": [
+        "semantic HTML",
+        "keyboard reachable",
+        "visible focus state"
+      ],
+      "agentNotes": [
+        "Prefer the documented variant API over styling strings.",
+        "Inspect the registry before composing."
+      ]
+    },
+    {
+      "name": "Stack",
+      "category": "foundation",
+      "description": "Stack with StyleX tokens and an agent-readable contract.",
+      "status": "implemented",
+      "sourceFiles": ["src/components/components.tsx"],
+      "exportName": "Stack",
+      "states": ["default", "focus", "disabled"],
+      "accessibility": [
+        "semantic HTML",
+        "keyboard reachable",
+        "visible focus state"
+      ],
+      "agentNotes": [
+        "Prefer the documented variant API over styling strings.",
+        "Inspect the registry before composing."
+      ]
+    },
+    {
+      "name": "Inline",
+      "category": "foundation",
+      "description": "Inline with StyleX tokens and an agent-readable contract.",
+      "status": "implemented",
+      "sourceFiles": ["src/components/components.tsx"],
+      "exportName": "Inline",
+      "states": ["default", "focus", "disabled"],
+      "accessibility": [
+        "semantic HTML",
+        "keyboard reachable",
+        "visible focus state"
+      ],
+      "agentNotes": [
+        "Prefer the documented variant API over styling strings.",
+        "Inspect the registry before composing."
+      ]
+    },
+    {
+      "name": "Grid",
+      "category": "foundation",
+      "description": "Grid with StyleX tokens and an agent-readable contract.",
+      "status": "implemented",
+      "sourceFiles": ["src/components/components.tsx"],
+      "exportName": "Grid",
+      "states": ["default", "focus", "disabled"],
+      "accessibility": [
+        "semantic HTML",
+        "keyboard reachable",
+        "visible focus state"
+      ],
+      "agentNotes": [
+        "Prefer the documented variant API over styling strings.",
+        "Inspect the registry before composing."
+      ]
+    },
+    {
+      "name": "Separator",
+      "category": "foundation",
+      "description": "Separator with StyleX tokens and an agent-readable contract.",
+      "status": "implemented",
+      "sourceFiles": ["src/components/components.tsx"],
+      "exportName": "Separator",
+      "states": ["default", "focus", "disabled"],
+      "accessibility": [
+        "semantic HTML",
+        "keyboard reachable",
+        "visible focus state"
+      ],
+      "agentNotes": [
+        "Prefer the documented variant API over styling strings.",
+        "Inspect the registry before composing."
+      ]
+    },
+    {
+      "name": "ScrollArea",
+      "category": "foundation",
+      "description": "ScrollArea with StyleX tokens and an agent-readable contract.",
+      "status": "implemented",
+      "sourceFiles": ["src/components/components.tsx"],
+      "exportName": "ScrollArea",
+      "states": ["default", "focus", "disabled"],
+      "accessibility": [
+        "semantic HTML",
+        "keyboard reachable",
+        "visible focus state"
+      ],
+      "agentNotes": [
+        "Prefer the documented variant API over styling strings.",
+        "Inspect the registry before composing."
+      ]
+    },
+    {
+      "name": "Button",
+      "category": "action",
+      "description": "An action with explicit intent and typed visual tone.",
+      "status": "implemented",
+      "sourceFiles": ["src/components/components.tsx"],
+      "exportName": "Button",
+      "states": ["default", "focus", "disabled"],
+      "accessibility": [
+        "semantic HTML",
+        "keyboard reachable",
+        "visible focus state"
+      ],
+      "agentNotes": [
+        "Prefer the documented variant API over styling strings.",
+        "Inspect the registry before composing."
+      ]
+    },
+    {
+      "name": "IconButton",
+      "category": "action",
+      "description": "IconButton with StyleX tokens and an agent-readable contract.",
+      "status": "implemented",
+      "sourceFiles": ["src/components/components.tsx"],
+      "exportName": "IconButton",
+      "states": ["default", "focus", "disabled"],
+      "accessibility": [
+        "semantic HTML",
+        "keyboard reachable",
+        "visible focus state"
+      ],
+      "agentNotes": [
+        "Prefer the documented variant API over styling strings.",
+        "Inspect the registry before composing."
+      ]
+    },
+    {
+      "name": "ButtonGroup",
+      "category": "action",
+      "description": "ButtonGroup with StyleX tokens and an agent-readable contract.",
+      "status": "implemented",
+      "sourceFiles": ["src/components/components.tsx"],
+      "exportName": "ButtonGroup",
+      "states": ["default", "focus", "disabled"],
+      "accessibility": [
+        "semantic HTML",
+        "keyboard reachable",
+        "visible focus state"
+      ],
+      "agentNotes": [
+        "Prefer the documented variant API over styling strings.",
+        "Inspect the registry before composing."
+      ]
+    },
+    {
+      "name": "Link",
+      "category": "action",
+      "description": "Link with StyleX tokens and an agent-readable contract.",
+      "status": "implemented",
+      "sourceFiles": ["src/components/components.tsx"],
+      "exportName": "Link",
+      "states": ["default", "focus", "disabled"],
+      "accessibility": [
+        "semantic HTML",
+        "keyboard reachable",
+        "visible focus state"
+      ],
+      "agentNotes": [
+        "Prefer the documented variant API over styling strings.",
+        "Inspect the registry before composing."
+      ]
+    },
+    {
+      "name": "LinkButton",
+      "category": "action",
+      "description": "LinkButton with StyleX tokens and an agent-readable contract.",
+      "status": "implemented",
+      "sourceFiles": ["src/components/components.tsx"],
+      "exportName": "LinkButton",
+      "states": ["default", "focus", "disabled"],
+      "accessibility": [
+        "semantic HTML",
+        "keyboard reachable",
+        "visible focus state"
+      ],
+      "agentNotes": [
+        "Prefer the documented variant API over styling strings.",
+        "Inspect the registry before composing."
+      ]
+    },
+    {
+      "name": "Toggle",
+      "category": "action",
+      "description": "Toggle with StyleX tokens and an agent-readable contract.",
+      "status": "implemented",
+      "sourceFiles": ["src/components/components.tsx"],
+      "exportName": "Toggle",
+      "states": ["default", "focus", "disabled"],
+      "accessibility": [
+        "semantic HTML",
+        "keyboard reachable",
+        "visible focus state"
+      ],
+      "agentNotes": [
+        "Prefer the documented variant API over styling strings.",
+        "Inspect the registry before composing."
+      ]
+    },
+    {
+      "name": "ToggleGroup",
+      "category": "action",
+      "description": "ToggleGroup with StyleX tokens and an agent-readable contract.",
+      "status": "implemented",
+      "sourceFiles": ["src/components/components.tsx"],
+      "exportName": "ToggleGroup",
+      "states": ["default", "focus", "disabled"],
+      "accessibility": [
+        "semantic HTML",
+        "keyboard reachable",
+        "visible focus state"
+      ],
+      "agentNotes": [
+        "Prefer the documented variant API over styling strings.",
+        "Inspect the registry before composing."
+      ]
+    },
+    {
+      "name": "Badge",
+      "category": "action",
+      "description": "Badge with StyleX tokens and an agent-readable contract.",
+      "status": "implemented",
+      "sourceFiles": ["src/components/components.tsx"],
+      "exportName": "Badge",
+      "states": ["default", "focus", "disabled"],
+      "accessibility": [
+        "semantic HTML",
+        "keyboard reachable",
+        "visible focus state"
+      ],
+      "agentNotes": [
+        "Prefer the documented variant API over styling strings.",
+        "Inspect the registry before composing."
+      ]
+    },
+    {
+      "name": "Tag",
+      "category": "action",
+      "description": "Tag with StyleX tokens and an agent-readable contract.",
+      "status": "implemented",
+      "sourceFiles": ["src/components/components.tsx"],
+      "exportName": "Tag",
+      "states": ["default", "focus", "disabled"],
+      "accessibility": [
+        "semantic HTML",
+        "keyboard reachable",
+        "visible focus state"
+      ],
+      "agentNotes": [
+        "Prefer the documented variant API over styling strings.",
+        "Inspect the registry before composing."
+      ]
+    },
+    {
+      "name": "Avatar",
+      "category": "action",
+      "description": "Avatar with StyleX tokens and an agent-readable contract.",
+      "status": "implemented",
+      "sourceFiles": ["src/components/components.tsx"],
+      "exportName": "Avatar",
+      "states": ["default", "focus", "disabled"],
+      "accessibility": [
+        "semantic HTML",
+        "keyboard reachable",
+        "visible focus state"
+      ],
+      "agentNotes": [
+        "Prefer the documented variant API over styling strings.",
+        "Inspect the registry before composing."
+      ]
+    },
+    {
+      "name": "AvatarGroup",
+      "category": "action",
+      "description": "AvatarGroup with StyleX tokens and an agent-readable contract.",
+      "status": "implemented",
+      "sourceFiles": ["src/components/components.tsx"],
+      "exportName": "AvatarGroup",
+      "states": ["default", "focus", "disabled"],
+      "accessibility": [
+        "semantic HTML",
+        "keyboard reachable",
+        "visible focus state"
+      ],
+      "agentNotes": [
+        "Prefer the documented variant API over styling strings.",
+        "Inspect the registry before composing."
+      ]
+    },
+    {
+      "name": "Kbd",
+      "category": "action",
+      "description": "Kbd with StyleX tokens and an agent-readable contract.",
+      "status": "implemented",
+      "sourceFiles": ["src/components/components.tsx"],
+      "exportName": "Kbd",
+      "states": ["default", "focus", "disabled"],
+      "accessibility": [
+        "semantic HTML",
+        "keyboard reachable",
+        "visible focus state"
+      ],
+      "agentNotes": [
+        "Prefer the documented variant API over styling strings.",
+        "Inspect the registry before composing."
+      ]
+    },
+    {
+      "name": "Code",
+      "category": "action",
+      "description": "Code with StyleX tokens and an agent-readable contract.",
+      "status": "implemented",
+      "sourceFiles": ["src/components/components.tsx"],
+      "exportName": "Code",
+      "states": ["default", "focus", "disabled"],
+      "accessibility": [
+        "semantic HTML",
+        "keyboard reachable",
+        "visible focus state"
+      ],
+      "agentNotes": [
+        "Prefer the documented variant API over styling strings.",
+        "Inspect the registry before composing."
+      ]
+    },
+    {
+      "name": "CodeBlock",
+      "category": "action",
+      "description": "CodeBlock with StyleX tokens and an agent-readable contract.",
+      "status": "implemented",
+      "sourceFiles": ["src/components/components.tsx"],
+      "exportName": "CodeBlock",
+      "states": ["default", "focus", "disabled"],
+      "accessibility": [
+        "semantic HTML",
+        "keyboard reachable",
+        "visible focus state"
+      ],
+      "agentNotes": [
+        "Prefer the documented variant API over styling strings.",
+        "Inspect the registry before composing."
+      ]
+    },
+    {
+      "name": "Card",
+      "category": "action",
+      "description": "Card with StyleX tokens and an agent-readable contract.",
+      "status": "implemented",
+      "sourceFiles": ["src/components/components.tsx"],
+      "exportName": "Card",
+      "states": ["default", "focus", "disabled"],
+      "accessibility": [
+        "semantic HTML",
+        "keyboard reachable",
+        "visible focus state"
+      ],
+      "agentNotes": [
+        "Prefer the documented variant API over styling strings.",
+        "Inspect the registry before composing."
+      ]
+    },
+    {
+      "name": "Callout",
+      "category": "action",
+      "description": "Callout with StyleX tokens and an agent-readable contract.",
+      "status": "implemented",
+      "sourceFiles": ["src/components/components.tsx"],
+      "exportName": "Callout",
+      "states": ["default", "focus", "disabled"],
+      "accessibility": [
+        "semantic HTML",
+        "keyboard reachable",
+        "visible focus state"
+      ],
+      "agentNotes": [
+        "Prefer the documented variant API over styling strings.",
+        "Inspect the registry before composing."
+      ]
+    },
+    {
+      "name": "Form",
+      "category": "form",
+      "description": "Form with StyleX tokens and an agent-readable contract.",
+      "status": "implemented",
+      "sourceFiles": ["src/components/components.tsx"],
+      "exportName": "Form",
+      "states": ["default", "focus", "disabled"],
+      "accessibility": [
+        "semantic HTML",
+        "keyboard reachable",
+        "visible focus state"
+      ],
+      "agentNotes": [
+        "Prefer the documented variant API over styling strings.",
+        "Inspect the registry before composing."
+      ]
+    },
+    {
+      "name": "Field",
+      "category": "form",
+      "description": "Field with StyleX tokens and an agent-readable contract.",
+      "status": "implemented",
+      "sourceFiles": ["src/components/components.tsx"],
+      "exportName": "Field",
+      "states": ["default", "focus", "disabled"],
+      "accessibility": [
+        "semantic HTML",
+        "keyboard reachable",
+        "visible focus state"
+      ],
+      "agentNotes": [
+        "Prefer the documented variant API over styling strings.",
+        "Inspect the registry before composing."
+      ]
+    },
+    {
+      "name": "Label",
+      "category": "form",
+      "description": "Label with StyleX tokens and an agent-readable contract.",
+      "status": "implemented",
+      "sourceFiles": ["src/components/components.tsx"],
+      "exportName": "Label",
+      "states": ["default", "focus", "disabled"],
+      "accessibility": [
+        "semantic HTML",
+        "keyboard reachable",
+        "visible focus state"
+      ],
+      "agentNotes": [
+        "Prefer the documented variant API over styling strings.",
+        "Inspect the registry before composing."
+      ]
+    },
+    {
+      "name": "Description",
+      "category": "form",
+      "description": "Description with StyleX tokens and an agent-readable contract.",
+      "status": "implemented",
+      "sourceFiles": ["src/components/components.tsx"],
+      "exportName": "Description",
+      "states": ["default", "focus", "disabled"],
+      "accessibility": [
+        "semantic HTML",
+        "keyboard reachable",
+        "visible focus state"
+      ],
+      "agentNotes": [
+        "Prefer the documented variant API over styling strings.",
+        "Inspect the registry before composing."
+      ]
+    },
+    {
+      "name": "FieldError",
+      "category": "form",
+      "description": "FieldError with StyleX tokens and an agent-readable contract.",
+      "status": "implemented",
+      "sourceFiles": ["src/components/components.tsx"],
+      "exportName": "FieldError",
+      "states": ["default", "focus", "disabled"],
+      "accessibility": [
+        "semantic HTML",
+        "keyboard reachable",
+        "visible focus state"
+      ],
+      "agentNotes": [
+        "Prefer the documented variant API over styling strings.",
+        "Inspect the registry before composing."
+      ]
+    },
+    {
+      "name": "Input",
+      "category": "form",
+      "description": "Input with StyleX tokens and an agent-readable contract.",
+      "status": "implemented",
+      "sourceFiles": ["src/components/components.tsx"],
+      "exportName": "Input",
+      "states": ["default", "focus", "disabled"],
+      "accessibility": [
+        "semantic HTML",
+        "keyboard reachable",
+        "visible focus state"
+      ],
+      "agentNotes": [
+        "Prefer the documented variant API over styling strings.",
+        "Inspect the registry before composing."
+      ]
+    },
+    {
+      "name": "InputGroup",
+      "category": "form",
+      "description": "InputGroup with StyleX tokens and an agent-readable contract.",
+      "status": "implemented",
+      "sourceFiles": ["src/components/components.tsx"],
+      "exportName": "InputGroup",
+      "states": ["default", "focus", "disabled"],
+      "accessibility": [
+        "semantic HTML",
+        "keyboard reachable",
+        "visible focus state"
+      ],
+      "agentNotes": [
+        "Prefer the documented variant API over styling strings.",
+        "Inspect the registry before composing."
+      ]
+    },
+    {
+      "name": "Textarea",
+      "category": "form",
+      "description": "Textarea with StyleX tokens and an agent-readable contract.",
+      "status": "implemented",
+      "sourceFiles": ["src/components/components.tsx"],
+      "exportName": "Textarea",
+      "states": ["default", "focus", "disabled"],
+      "accessibility": [
+        "semantic HTML",
+        "keyboard reachable",
+        "visible focus state"
+      ],
+      "agentNotes": [
+        "Prefer the documented variant API over styling strings.",
+        "Inspect the registry before composing."
+      ]
+    },
+    {
+      "name": "PasswordField",
+      "category": "form",
+      "description": "PasswordField with StyleX tokens and an agent-readable contract.",
+      "status": "implemented",
+      "sourceFiles": ["src/components/components.tsx"],
+      "exportName": "PasswordField",
+      "states": ["default", "focus", "disabled"],
+      "accessibility": [
+        "semantic HTML",
+        "keyboard reachable",
+        "visible focus state"
+      ],
+      "agentNotes": [
+        "Prefer the documented variant API over styling strings.",
+        "Inspect the registry before composing."
+      ]
+    },
+    {
+      "name": "SearchField",
+      "category": "form",
+      "description": "SearchField with StyleX tokens and an agent-readable contract.",
+      "status": "implemented",
+      "sourceFiles": ["src/components/components.tsx"],
+      "exportName": "SearchField",
+      "states": ["default", "focus", "disabled"],
+      "accessibility": [
+        "semantic HTML",
+        "keyboard reachable",
+        "visible focus state"
+      ],
+      "agentNotes": [
+        "Prefer the documented variant API over styling strings.",
+        "Inspect the registry before composing."
+      ]
+    },
+    {
+      "name": "NumberField",
+      "category": "form",
+      "description": "NumberField with StyleX tokens and an agent-readable contract.",
+      "status": "implemented",
+      "sourceFiles": ["src/components/components.tsx"],
+      "exportName": "NumberField",
+      "states": ["default", "focus", "disabled"],
+      "accessibility": [
+        "semantic HTML",
+        "keyboard reachable",
+        "visible focus state"
+      ],
+      "agentNotes": [
+        "Prefer the documented variant API over styling strings.",
+        "Inspect the registry before composing."
+      ]
+    },
+    {
+      "name": "Checkbox",
+      "category": "form",
+      "description": "Checkbox with StyleX tokens and an agent-readable contract.",
+      "status": "implemented",
+      "sourceFiles": ["src/components/components.tsx"],
+      "exportName": "Checkbox",
+      "states": ["default", "focus", "disabled"],
+      "accessibility": [
+        "semantic HTML",
+        "keyboard reachable",
+        "visible focus state"
+      ],
+      "agentNotes": [
+        "Prefer the documented variant API over styling strings.",
+        "Inspect the registry before composing."
+      ]
+    },
+    {
+      "name": "CheckboxGroup",
+      "category": "form",
+      "description": "CheckboxGroup with StyleX tokens and an agent-readable contract.",
+      "status": "implemented",
+      "sourceFiles": ["src/components/components.tsx"],
+      "exportName": "CheckboxGroup",
+      "states": ["default", "focus", "disabled"],
+      "accessibility": [
+        "semantic HTML",
+        "keyboard reachable",
+        "visible focus state"
+      ],
+      "agentNotes": [
+        "Prefer the documented variant API over styling strings.",
+        "Inspect the registry before composing."
+      ]
+    },
+    {
+      "name": "RadioGroup",
+      "category": "form",
+      "description": "RadioGroup with StyleX tokens and an agent-readable contract.",
+      "status": "implemented",
+      "sourceFiles": ["src/components/components.tsx"],
+      "exportName": "RadioGroup",
+      "states": ["default", "focus", "disabled"],
+      "accessibility": [
+        "semantic HTML",
+        "keyboard reachable",
+        "visible focus state"
+      ],
+      "agentNotes": [
+        "Prefer the documented variant API over styling strings.",
+        "Inspect the registry before composing."
+      ]
+    },
+    {
+      "name": "Switch",
+      "category": "form",
+      "description": "Switch with StyleX tokens and an agent-readable contract.",
+      "status": "implemented",
+      "sourceFiles": ["src/components/components.tsx"],
+      "exportName": "Switch",
+      "states": ["default", "focus", "disabled"],
+      "accessibility": [
+        "semantic HTML",
+        "keyboard reachable",
+        "visible focus state"
+      ],
+      "agentNotes": [
+        "Prefer the documented variant API over styling strings.",
+        "Inspect the registry before composing."
+      ]
+    },
+    {
+      "name": "Select",
+      "category": "form",
+      "description": "Select with StyleX tokens and an agent-readable contract.",
+      "status": "implemented",
+      "sourceFiles": ["src/components/components.tsx"],
+      "exportName": "Select",
+      "states": ["default", "focus", "disabled"],
+      "accessibility": [
+        "semantic HTML",
+        "keyboard reachable",
+        "visible focus state"
+      ],
+      "agentNotes": [
+        "Prefer the documented variant API over styling strings.",
+        "Inspect the registry before composing."
+      ]
+    },
+    {
+      "name": "Combobox",
+      "category": "form",
+      "description": "Combobox with StyleX tokens and an agent-readable contract.",
+      "status": "implemented",
+      "sourceFiles": ["src/components/components.tsx"],
+      "exportName": "Combobox",
+      "states": ["default", "focus", "disabled"],
+      "accessibility": [
+        "semantic HTML",
+        "keyboard reachable",
+        "visible focus state"
+      ],
+      "agentNotes": [
+        "Prefer the documented variant API over styling strings.",
+        "Inspect the registry before composing."
+      ]
+    },
+    {
+      "name": "MultiSelect",
+      "category": "form",
+      "description": "MultiSelect with StyleX tokens and an agent-readable contract.",
+      "status": "implemented",
+      "sourceFiles": ["src/components/components.tsx"],
+      "exportName": "MultiSelect",
+      "states": ["default", "focus", "disabled"],
+      "accessibility": [
+        "semantic HTML",
+        "keyboard reachable",
+        "visible focus state"
+      ],
+      "agentNotes": [
+        "Prefer the documented variant API over styling strings.",
+        "Inspect the registry before composing."
+      ]
+    },
+    {
+      "name": "Slider",
+      "category": "form",
+      "description": "Slider with StyleX tokens and an agent-readable contract.",
+      "status": "implemented",
+      "sourceFiles": ["src/components/components.tsx"],
+      "exportName": "Slider",
+      "states": ["default", "focus", "disabled"],
+      "accessibility": [
+        "semantic HTML",
+        "keyboard reachable",
+        "visible focus state"
+      ],
+      "agentNotes": [
+        "Prefer the documented variant API over styling strings.",
+        "Inspect the registry before composing."
+      ]
+    },
+    {
+      "name": "DatePicker",
+      "category": "form",
+      "description": "DatePicker with StyleX tokens and an agent-readable contract.",
+      "status": "implemented",
+      "sourceFiles": ["src/components/components.tsx"],
+      "exportName": "DatePicker",
+      "states": ["default", "focus", "disabled"],
+      "accessibility": [
+        "semantic HTML",
+        "keyboard reachable",
+        "visible focus state"
+      ],
+      "agentNotes": [
+        "Prefer the documented variant API over styling strings.",
+        "Inspect the registry before composing."
+      ]
+    },
+    {
+      "name": "Calendar",
+      "category": "form",
+      "description": "Calendar with StyleX tokens and an agent-readable contract.",
+      "status": "implemented",
+      "sourceFiles": ["src/components/components.tsx"],
+      "exportName": "Calendar",
+      "states": ["default", "focus", "disabled"],
+      "accessibility": [
+        "semantic HTML",
+        "keyboard reachable",
+        "visible focus state"
+      ],
+      "agentNotes": [
+        "Prefer the documented variant API over styling strings.",
+        "Inspect the registry before composing."
+      ]
+    },
+    {
+      "name": "TimeField",
+      "category": "form",
+      "description": "TimeField with StyleX tokens and an agent-readable contract.",
+      "status": "implemented",
+      "sourceFiles": ["src/components/components.tsx"],
+      "exportName": "TimeField",
+      "states": ["default", "focus", "disabled"],
+      "accessibility": [
+        "semantic HTML",
+        "keyboard reachable",
+        "visible focus state"
+      ],
+      "agentNotes": [
+        "Prefer the documented variant API over styling strings.",
+        "Inspect the registry before composing."
+      ]
+    },
+    {
+      "name": "OTPInput",
+      "category": "form",
+      "description": "OTPInput with StyleX tokens and an agent-readable contract.",
+      "status": "implemented",
+      "sourceFiles": ["src/components/components.tsx"],
+      "exportName": "OTPInput",
+      "states": ["default", "focus", "disabled"],
+      "accessibility": [
+        "semantic HTML",
+        "keyboard reachable",
+        "visible focus state"
+      ],
+      "agentNotes": [
+        "Prefer the documented variant API over styling strings.",
+        "Inspect the registry before composing."
+      ]
+    },
+    {
+      "name": "FileField",
+      "category": "form",
+      "description": "FileField with StyleX tokens and an agent-readable contract.",
+      "status": "implemented",
+      "sourceFiles": ["src/components/components.tsx"],
+      "exportName": "FileField",
+      "states": ["default", "focus", "disabled"],
+      "accessibility": [
+        "semantic HTML",
+        "keyboard reachable",
+        "visible focus state"
+      ],
+      "agentNotes": [
+        "Prefer the documented variant API over styling strings.",
+        "Inspect the registry before composing."
+      ]
+    },
+    {
+      "name": "Tabs",
+      "category": "navigation",
+      "description": "Tabs with StyleX tokens and an agent-readable contract.",
+      "status": "implemented",
+      "sourceFiles": ["src/components/components.tsx"],
+      "exportName": "Tabs",
+      "states": ["default", "focus", "disabled"],
+      "accessibility": [
+        "semantic HTML",
+        "keyboard reachable",
+        "visible focus state"
+      ],
+      "agentNotes": [
+        "Prefer the documented variant API over styling strings.",
+        "Inspect the registry before composing."
+      ]
+    },
+    {
+      "name": "TabList",
+      "category": "navigation",
+      "description": "TabList with StyleX tokens and an agent-readable contract.",
+      "status": "implemented",
+      "sourceFiles": ["src/components/components.tsx"],
+      "exportName": "TabList",
+      "states": ["default", "focus", "disabled"],
+      "accessibility": [
+        "semantic HTML",
+        "keyboard reachable",
+        "visible focus state"
+      ],
+      "agentNotes": [
+        "Prefer the documented variant API over styling strings.",
+        "Inspect the registry before composing."
+      ]
+    },
+    {
+      "name": "Tab",
+      "category": "navigation",
+      "description": "Tab with StyleX tokens and an agent-readable contract.",
+      "status": "implemented",
+      "sourceFiles": ["src/components/components.tsx"],
+      "exportName": "Tab",
+      "states": ["default", "focus", "disabled"],
+      "accessibility": [
+        "semantic HTML",
+        "keyboard reachable",
+        "visible focus state"
+      ],
+      "agentNotes": [
+        "Prefer the documented variant API over styling strings.",
+        "Inspect the registry before composing."
+      ]
+    },
+    {
+      "name": "TabPanel",
+      "category": "navigation",
+      "description": "TabPanel with StyleX tokens and an agent-readable contract.",
+      "status": "implemented",
+      "sourceFiles": ["src/components/components.tsx"],
+      "exportName": "TabPanel",
+      "states": ["default", "focus", "disabled"],
+      "accessibility": [
+        "semantic HTML",
+        "keyboard reachable",
+        "visible focus state"
+      ],
+      "agentNotes": [
+        "Prefer the documented variant API over styling strings.",
+        "Inspect the registry before composing."
+      ]
+    },
+    {
+      "name": "Accordion",
+      "category": "navigation",
+      "description": "Accordion with StyleX tokens and an agent-readable contract.",
+      "status": "implemented",
+      "sourceFiles": ["src/components/components.tsx"],
+      "exportName": "Accordion",
+      "states": ["default", "focus", "disabled"],
+      "accessibility": [
+        "semantic HTML",
+        "keyboard reachable",
+        "visible focus state"
+      ],
+      "agentNotes": [
+        "Prefer the documented variant API over styling strings.",
+        "Inspect the registry before composing."
+      ]
+    },
+    {
+      "name": "Collapsible",
+      "category": "navigation",
+      "description": "Collapsible with StyleX tokens and an agent-readable contract.",
+      "status": "implemented",
+      "sourceFiles": ["src/components/components.tsx"],
+      "exportName": "Collapsible",
+      "states": ["default", "focus", "disabled"],
+      "accessibility": [
+        "semantic HTML",
+        "keyboard reachable",
+        "visible focus state"
+      ],
+      "agentNotes": [
+        "Prefer the documented variant API over styling strings.",
+        "Inspect the registry before composing."
+      ]
+    },
+    {
+      "name": "Breadcrumbs",
+      "category": "navigation",
+      "description": "Breadcrumbs with StyleX tokens and an agent-readable contract.",
+      "status": "implemented",
+      "sourceFiles": ["src/components/components.tsx"],
+      "exportName": "Breadcrumbs",
+      "states": ["default", "focus", "disabled"],
+      "accessibility": [
+        "semantic HTML",
+        "keyboard reachable",
+        "visible focus state"
+      ],
+      "agentNotes": [
+        "Prefer the documented variant API over styling strings.",
+        "Inspect the registry before composing."
+      ]
+    },
+    {
+      "name": "Pagination",
+      "category": "navigation",
+      "description": "Pagination with StyleX tokens and an agent-readable contract.",
+      "status": "implemented",
+      "sourceFiles": ["src/components/components.tsx"],
+      "exportName": "Pagination",
+      "states": ["default", "focus", "disabled"],
+      "accessibility": [
+        "semantic HTML",
+        "keyboard reachable",
+        "visible focus state"
+      ],
+      "agentNotes": [
+        "Prefer the documented variant API over styling strings.",
+        "Inspect the registry before composing."
+      ]
+    },
+    {
+      "name": "Stepper",
+      "category": "navigation",
+      "description": "Stepper with StyleX tokens and an agent-readable contract.",
+      "status": "implemented",
+      "sourceFiles": ["src/components/components.tsx"],
+      "exportName": "Stepper",
+      "states": ["default", "focus", "disabled"],
+      "accessibility": [
+        "semantic HTML",
+        "keyboard reachable",
+        "visible focus state"
+      ],
+      "agentNotes": [
+        "Prefer the documented variant API over styling strings.",
+        "Inspect the registry before composing."
+      ]
+    },
+    {
+      "name": "Menu",
+      "category": "navigation",
+      "description": "Menu with StyleX tokens and an agent-readable contract.",
+      "status": "implemented",
+      "sourceFiles": ["src/components/components.tsx"],
+      "exportName": "Menu",
+      "states": ["default", "focus", "disabled"],
+      "accessibility": [
+        "semantic HTML",
+        "keyboard reachable",
+        "visible focus state"
+      ],
+      "agentNotes": [
+        "Prefer the documented variant API over styling strings.",
+        "Inspect the registry before composing."
+      ]
+    },
+    {
+      "name": "DropdownMenu",
+      "category": "navigation",
+      "description": "DropdownMenu with StyleX tokens and an agent-readable contract.",
+      "status": "implemented",
+      "sourceFiles": ["src/components/components.tsx"],
+      "exportName": "DropdownMenu",
+      "states": ["default", "focus", "disabled"],
+      "accessibility": [
+        "semantic HTML",
+        "keyboard reachable",
+        "visible focus state"
+      ],
+      "agentNotes": [
+        "Prefer the documented variant API over styling strings.",
+        "Inspect the registry before composing."
+      ]
+    },
+    {
+      "name": "ContextMenu",
+      "category": "navigation",
+      "description": "ContextMenu with StyleX tokens and an agent-readable contract.",
+      "status": "implemented",
+      "sourceFiles": ["src/components/components.tsx"],
+      "exportName": "ContextMenu",
+      "states": ["default", "focus", "disabled"],
+      "accessibility": [
+        "semantic HTML",
+        "keyboard reachable",
+        "visible focus state"
+      ],
+      "agentNotes": [
+        "Prefer the documented variant API over styling strings.",
+        "Inspect the registry before composing."
+      ]
+    },
+    {
+      "name": "Menubar",
+      "category": "navigation",
+      "description": "Menubar with StyleX tokens and an agent-readable contract.",
+      "status": "implemented",
+      "sourceFiles": ["src/components/components.tsx"],
+      "exportName": "Menubar",
+      "states": ["default", "focus", "disabled"],
+      "accessibility": [
+        "semantic HTML",
+        "keyboard reachable",
+        "visible focus state"
+      ],
+      "agentNotes": [
+        "Prefer the documented variant API over styling strings.",
+        "Inspect the registry before composing."
+      ]
+    },
+    {
+      "name": "NavigationMenu",
+      "category": "navigation",
+      "description": "NavigationMenu with StyleX tokens and an agent-readable contract.",
+      "status": "implemented",
+      "sourceFiles": ["src/components/components.tsx"],
+      "exportName": "NavigationMenu",
+      "states": ["default", "focus", "disabled"],
+      "accessibility": [
+        "semantic HTML",
+        "keyboard reachable",
+        "visible focus state"
+      ],
+      "agentNotes": [
+        "Prefer the documented variant API over styling strings.",
+        "Inspect the registry before composing."
+      ]
+    },
+    {
+      "name": "Sidebar",
+      "category": "navigation",
+      "description": "Sidebar with StyleX tokens and an agent-readable contract.",
+      "status": "implemented",
+      "sourceFiles": ["src/components/components.tsx"],
+      "exportName": "Sidebar",
+      "states": ["default", "focus", "disabled"],
+      "accessibility": [
+        "semantic HTML",
+        "keyboard reachable",
+        "visible focus state"
+      ],
+      "agentNotes": [
+        "Prefer the documented variant API over styling strings.",
+        "Inspect the registry before composing."
+      ]
+    },
+    {
+      "name": "Toolbar",
+      "category": "navigation",
+      "description": "Toolbar with StyleX tokens and an agent-readable contract.",
+      "status": "implemented",
+      "sourceFiles": ["src/components/components.tsx"],
+      "exportName": "Toolbar",
+      "states": ["default", "focus", "disabled"],
+      "accessibility": [
+        "semantic HTML",
+        "keyboard reachable",
+        "visible focus state"
+      ],
+      "agentNotes": [
+        "Prefer the documented variant API over styling strings.",
+        "Inspect the registry before composing."
+      ]
+    },
+    {
+      "name": "Dialog",
+      "category": "overlay",
+      "description": "A modal surface requiring focused human attention.",
+      "status": "implemented",
+      "sourceFiles": ["src/components/components.tsx"],
+      "exportName": "Dialog",
+      "states": ["default", "focus", "disabled"],
+      "accessibility": [
+        "semantic HTML",
+        "keyboard reachable",
+        "visible focus state"
+      ],
+      "agentNotes": [
+        "Prefer the documented variant API over styling strings.",
+        "Inspect the registry before composing."
+      ]
+    },
+    {
+      "name": "AlertDialog",
+      "category": "overlay",
+      "description": "AlertDialog with StyleX tokens and an agent-readable contract.",
+      "status": "implemented",
+      "sourceFiles": ["src/components/components.tsx"],
+      "exportName": "AlertDialog",
+      "states": ["default", "focus", "disabled"],
+      "accessibility": [
+        "semantic HTML",
+        "keyboard reachable",
+        "visible focus state"
+      ],
+      "agentNotes": [
+        "Prefer the documented variant API over styling strings.",
+        "Inspect the registry before composing."
+      ]
+    },
+    {
+      "name": "Drawer",
+      "category": "overlay",
+      "description": "Drawer with StyleX tokens and an agent-readable contract.",
+      "status": "implemented",
+      "sourceFiles": ["src/components/components.tsx"],
+      "exportName": "Drawer",
+      "states": ["default", "focus", "disabled"],
+      "accessibility": [
+        "semantic HTML",
+        "keyboard reachable",
+        "visible focus state"
+      ],
+      "agentNotes": [
+        "Prefer the documented variant API over styling strings.",
+        "Inspect the registry before composing."
+      ]
+    },
+    {
+      "name": "Popover",
+      "category": "overlay",
+      "description": "Popover with StyleX tokens and an agent-readable contract.",
+      "status": "implemented",
+      "sourceFiles": ["src/components/components.tsx"],
+      "exportName": "Popover",
+      "states": ["default", "focus", "disabled"],
+      "accessibility": [
+        "semantic HTML",
+        "keyboard reachable",
+        "visible focus state"
+      ],
+      "agentNotes": [
+        "Prefer the documented variant API over styling strings.",
+        "Inspect the registry before composing."
+      ]
+    },
+    {
+      "name": "Tooltip",
+      "category": "overlay",
+      "description": "Tooltip with StyleX tokens and an agent-readable contract.",
+      "status": "implemented",
+      "sourceFiles": ["src/components/components.tsx"],
+      "exportName": "Tooltip",
+      "states": ["default", "focus", "disabled"],
+      "accessibility": [
+        "semantic HTML",
+        "keyboard reachable",
+        "visible focus state"
+      ],
+      "agentNotes": [
+        "Prefer the documented variant API over styling strings.",
+        "Inspect the registry before composing."
+      ]
+    },
+    {
+      "name": "HoverCard",
+      "category": "overlay",
+      "description": "HoverCard with StyleX tokens and an agent-readable contract.",
+      "status": "implemented",
+      "sourceFiles": ["src/components/components.tsx"],
+      "exportName": "HoverCard",
+      "states": ["default", "focus", "disabled"],
+      "accessibility": [
+        "semantic HTML",
+        "keyboard reachable",
+        "visible focus state"
+      ],
+      "agentNotes": [
+        "Prefer the documented variant API over styling strings.",
+        "Inspect the registry before composing."
+      ]
+    },
+    {
+      "name": "Toast",
+      "category": "overlay",
+      "description": "Toast with StyleX tokens and an agent-readable contract.",
+      "status": "implemented",
+      "sourceFiles": ["src/components/components.tsx"],
+      "exportName": "Toast",
+      "states": ["default", "focus", "disabled"],
+      "accessibility": [
+        "semantic HTML",
+        "keyboard reachable",
+        "visible focus state"
+      ],
+      "agentNotes": [
+        "Prefer the documented variant API over styling strings.",
+        "Inspect the registry before composing."
+      ]
+    },
+    {
+      "name": "Toaster",
+      "category": "overlay",
+      "description": "Toaster with StyleX tokens and an agent-readable contract.",
+      "status": "implemented",
+      "sourceFiles": ["src/components/components.tsx"],
+      "exportName": "Toaster",
+      "states": ["default", "focus", "disabled"],
+      "accessibility": [
+        "semantic HTML",
+        "keyboard reachable",
+        "visible focus state"
+      ],
+      "agentNotes": [
+        "Prefer the documented variant API over styling strings.",
+        "Inspect the registry before composing."
+      ]
+    },
+    {
+      "name": "Command",
+      "category": "overlay",
+      "description": "Command with StyleX tokens and an agent-readable contract.",
+      "status": "implemented",
+      "sourceFiles": ["src/components/components.tsx"],
+      "exportName": "Command",
+      "states": ["default", "focus", "disabled"],
+      "accessibility": [
+        "semantic HTML",
+        "keyboard reachable",
+        "visible focus state"
+      ],
+      "agentNotes": [
+        "Prefer the documented variant API over styling strings.",
+        "Inspect the registry before composing."
+      ]
+    },
+    {
+      "name": "CommandInput",
+      "category": "overlay",
+      "description": "CommandInput with StyleX tokens and an agent-readable contract.",
+      "status": "implemented",
+      "sourceFiles": ["src/components/components.tsx"],
+      "exportName": "CommandInput",
+      "states": ["default", "focus", "disabled"],
+      "accessibility": [
+        "semantic HTML",
+        "keyboard reachable",
+        "visible focus state"
+      ],
+      "agentNotes": [
+        "Prefer the documented variant API over styling strings.",
+        "Inspect the registry before composing."
+      ]
+    },
+    {
+      "name": "CommandList",
+      "category": "overlay",
+      "description": "CommandList with StyleX tokens and an agent-readable contract.",
+      "status": "implemented",
+      "sourceFiles": ["src/components/components.tsx"],
+      "exportName": "CommandList",
+      "states": ["default", "focus", "disabled"],
+      "accessibility": [
+        "semantic HTML",
+        "keyboard reachable",
+        "visible focus state"
+      ],
+      "agentNotes": [
+        "Prefer the documented variant API over styling strings.",
+        "Inspect the registry before composing."
+      ]
+    },
+    {
+      "name": "Alert",
+      "category": "feedback",
+      "description": "Alert with StyleX tokens and an agent-readable contract.",
+      "status": "implemented",
+      "sourceFiles": ["src/components/components.tsx"],
+      "exportName": "Alert",
+      "states": ["default", "focus", "disabled"],
+      "accessibility": [
+        "semantic HTML",
+        "keyboard reachable",
+        "visible focus state"
+      ],
+      "agentNotes": [
+        "Prefer the documented variant API over styling strings.",
+        "Inspect the registry before composing."
+      ]
+    },
+    {
+      "name": "Banner",
+      "category": "feedback",
+      "description": "Banner with StyleX tokens and an agent-readable contract.",
+      "status": "implemented",
+      "sourceFiles": ["src/components/components.tsx"],
+      "exportName": "Banner",
+      "states": ["default", "focus", "disabled"],
+      "accessibility": [
+        "semantic HTML",
+        "keyboard reachable",
+        "visible focus state"
+      ],
+      "agentNotes": [
+        "Prefer the documented variant API over styling strings.",
+        "Inspect the registry before composing."
+      ]
+    },
+    {
+      "name": "Progress",
+      "category": "feedback",
+      "description": "Progress with StyleX tokens and an agent-readable contract.",
+      "status": "implemented",
+      "sourceFiles": ["src/components/components.tsx"],
+      "exportName": "Progress",
+      "states": ["default", "focus", "disabled"],
+      "accessibility": [
+        "semantic HTML",
+        "keyboard reachable",
+        "visible focus state"
+      ],
+      "agentNotes": [
+        "Prefer the documented variant API over styling strings.",
+        "Inspect the registry before composing."
+      ]
+    },
+    {
+      "name": "ProgressCircle",
+      "category": "feedback",
+      "description": "ProgressCircle with StyleX tokens and an agent-readable contract.",
+      "status": "implemented",
+      "sourceFiles": ["src/components/components.tsx"],
+      "exportName": "ProgressCircle",
+      "states": ["default", "focus", "disabled"],
+      "accessibility": [
+        "semantic HTML",
+        "keyboard reachable",
+        "visible focus state"
+      ],
+      "agentNotes": [
+        "Prefer the documented variant API over styling strings.",
+        "Inspect the registry before composing."
+      ]
+    },
+    {
+      "name": "Meter",
+      "category": "feedback",
+      "description": "Meter with StyleX tokens and an agent-readable contract.",
+      "status": "implemented",
+      "sourceFiles": ["src/components/components.tsx"],
+      "exportName": "Meter",
+      "states": ["default", "focus", "disabled"],
+      "accessibility": [
+        "semantic HTML",
+        "keyboard reachable",
+        "visible focus state"
+      ],
+      "agentNotes": [
+        "Prefer the documented variant API over styling strings.",
+        "Inspect the registry before composing."
+      ]
+    },
+    {
+      "name": "Spinner",
+      "category": "feedback",
+      "description": "Spinner with StyleX tokens and an agent-readable contract.",
+      "status": "implemented",
+      "sourceFiles": ["src/components/components.tsx"],
+      "exportName": "Spinner",
+      "states": ["default", "focus", "disabled"],
+      "accessibility": [
+        "semantic HTML",
+        "keyboard reachable",
+        "visible focus state"
+      ],
+      "agentNotes": [
+        "Prefer the documented variant API over styling strings.",
+        "Inspect the registry before composing."
+      ]
+    },
+    {
+      "name": "Skeleton",
+      "category": "feedback",
+      "description": "Skeleton with StyleX tokens and an agent-readable contract.",
+      "status": "implemented",
+      "sourceFiles": ["src/components/components.tsx"],
+      "exportName": "Skeleton",
+      "states": ["default", "focus", "disabled"],
+      "accessibility": [
+        "semantic HTML",
+        "keyboard reachable",
+        "visible focus state"
+      ],
+      "agentNotes": [
+        "Prefer the documented variant API over styling strings.",
+        "Inspect the registry before composing."
+      ]
+    },
+    {
+      "name": "LoadingOverlay",
+      "category": "feedback",
+      "description": "LoadingOverlay with StyleX tokens and an agent-readable contract.",
+      "status": "implemented",
+      "sourceFiles": ["src/components/components.tsx"],
+      "exportName": "LoadingOverlay",
+      "states": ["default", "focus", "disabled"],
+      "accessibility": [
+        "semantic HTML",
+        "keyboard reachable",
+        "visible focus state"
+      ],
+      "agentNotes": [
+        "Prefer the documented variant API over styling strings.",
+        "Inspect the registry before composing."
+      ]
+    },
+    {
+      "name": "EmptyState",
+      "category": "feedback",
+      "description": "EmptyState with StyleX tokens and an agent-readable contract.",
+      "status": "implemented",
+      "sourceFiles": ["src/components/components.tsx"],
+      "exportName": "EmptyState",
+      "states": ["default", "focus", "disabled"],
+      "accessibility": [
+        "semantic HTML",
+        "keyboard reachable",
+        "visible focus state"
+      ],
+      "agentNotes": [
+        "Prefer the documented variant API over styling strings.",
+        "Inspect the registry before composing."
+      ]
+    },
+    {
+      "name": "ErrorState",
+      "category": "feedback",
+      "description": "ErrorState with StyleX tokens and an agent-readable contract.",
+      "status": "implemented",
+      "sourceFiles": ["src/components/components.tsx"],
+      "exportName": "ErrorState",
+      "states": ["default", "focus", "disabled"],
+      "accessibility": [
+        "semantic HTML",
+        "keyboard reachable",
+        "visible focus state"
+      ],
+      "agentNotes": [
+        "Prefer the documented variant API over styling strings.",
+        "Inspect the registry before composing."
+      ]
+    },
+    {
+      "name": "Result",
+      "category": "feedback",
+      "description": "Result with StyleX tokens and an agent-readable contract.",
+      "status": "implemented",
+      "sourceFiles": ["src/components/components.tsx"],
+      "exportName": "Result",
+      "states": ["default", "focus", "disabled"],
+      "accessibility": [
+        "semantic HTML",
+        "keyboard reachable",
+        "visible focus state"
+      ],
+      "agentNotes": [
+        "Prefer the documented variant API over styling strings.",
+        "Inspect the registry before composing."
+      ]
+    },
+    {
+      "name": "Status",
+      "category": "feedback",
+      "description": "Status with StyleX tokens and an agent-readable contract.",
+      "status": "implemented",
+      "sourceFiles": ["src/components/components.tsx"],
+      "exportName": "Status",
+      "states": ["default", "focus", "disabled"],
+      "accessibility": [
+        "semantic HTML",
+        "keyboard reachable",
+        "visible focus state"
+      ],
+      "agentNotes": [
+        "Prefer the documented variant API over styling strings.",
+        "Inspect the registry before composing."
+      ]
+    },
+    {
+      "name": "Table",
+      "category": "data",
+      "description": "Table with StyleX tokens and an agent-readable contract.",
+      "status": "implemented",
+      "sourceFiles": ["src/components/components.tsx"],
+      "exportName": "Table",
+      "states": ["default", "focus", "disabled"],
+      "accessibility": [
+        "semantic HTML",
+        "keyboard reachable",
+        "visible focus state"
+      ],
+      "agentNotes": [
+        "Prefer the documented variant API over styling strings.",
+        "Inspect the registry before composing."
+      ]
+    },
+    {
+      "name": "DataTable",
+      "category": "data",
+      "description": "A typed data table with explicit columns and renderers.",
+      "status": "implemented",
+      "sourceFiles": ["src/components/components.tsx"],
+      "exportName": "DataTable",
+      "states": ["default", "focus", "disabled"],
+      "accessibility": [
+        "semantic HTML",
+        "keyboard reachable",
+        "visible focus state"
+      ],
+      "agentNotes": [
+        "Prefer the documented variant API over styling strings.",
+        "Inspect the registry before composing."
+      ]
+    },
+    {
+      "name": "DataGrid",
+      "category": "data",
+      "description": "DataGrid with StyleX tokens and an agent-readable contract.",
+      "status": "implemented",
+      "sourceFiles": ["src/components/components.tsx"],
+      "exportName": "DataGrid",
+      "states": ["default", "focus", "disabled"],
+      "accessibility": [
+        "semantic HTML",
+        "keyboard reachable",
+        "visible focus state"
+      ],
+      "agentNotes": [
+        "Prefer the documented variant API over styling strings.",
+        "Inspect the registry before composing."
+      ]
+    },
+    {
+      "name": "List",
+      "category": "data",
+      "description": "List with StyleX tokens and an agent-readable contract.",
+      "status": "implemented",
+      "sourceFiles": ["src/components/components.tsx"],
+      "exportName": "List",
+      "states": ["default", "focus", "disabled"],
+      "accessibility": [
+        "semantic HTML",
+        "keyboard reachable",
+        "visible focus state"
+      ],
+      "agentNotes": [
+        "Prefer the documented variant API over styling strings.",
+        "Inspect the registry before composing."
+      ]
+    },
+    {
+      "name": "ListItem",
+      "category": "data",
+      "description": "ListItem with StyleX tokens and an agent-readable contract.",
+      "status": "implemented",
+      "sourceFiles": ["src/components/components.tsx"],
+      "exportName": "ListItem",
+      "states": ["default", "focus", "disabled"],
+      "accessibility": [
+        "semantic HTML",
+        "keyboard reachable",
+        "visible focus state"
+      ],
+      "agentNotes": [
+        "Prefer the documented variant API over styling strings.",
+        "Inspect the registry before composing."
+      ]
+    },
+    {
+      "name": "DescriptionList",
+      "category": "data",
+      "description": "DescriptionList with StyleX tokens and an agent-readable contract.",
+      "status": "implemented",
+      "sourceFiles": ["src/components/components.tsx"],
+      "exportName": "DescriptionList",
+      "states": ["default", "focus", "disabled"],
+      "accessibility": [
+        "semantic HTML",
+        "keyboard reachable",
+        "visible focus state"
+      ],
+      "agentNotes": [
+        "Prefer the documented variant API over styling strings.",
+        "Inspect the registry before composing."
+      ]
+    },
+    {
+      "name": "Stat",
+      "category": "data",
+      "description": "Stat with StyleX tokens and an agent-readable contract.",
+      "status": "implemented",
+      "sourceFiles": ["src/components/components.tsx"],
+      "exportName": "Stat",
+      "states": ["default", "focus", "disabled"],
+      "accessibility": [
+        "semantic HTML",
+        "keyboard reachable",
+        "visible focus state"
+      ],
+      "agentNotes": [
+        "Prefer the documented variant API over styling strings.",
+        "Inspect the registry before composing."
+      ]
+    },
+    {
+      "name": "StatsGrid",
+      "category": "data",
+      "description": "StatsGrid with StyleX tokens and an agent-readable contract.",
+      "status": "implemented",
+      "sourceFiles": ["src/components/components.tsx"],
+      "exportName": "StatsGrid",
+      "states": ["default", "focus", "disabled"],
+      "accessibility": [
+        "semantic HTML",
+        "keyboard reachable",
+        "visible focus state"
+      ],
+      "agentNotes": [
+        "Prefer the documented variant API over styling strings.",
+        "Inspect the registry before composing."
+      ]
+    },
+    {
+      "name": "Timeline",
+      "category": "data",
+      "description": "Timeline with StyleX tokens and an agent-readable contract.",
+      "status": "implemented",
+      "sourceFiles": ["src/components/components.tsx"],
+      "exportName": "Timeline",
+      "states": ["default", "focus", "disabled"],
+      "accessibility": [
+        "semantic HTML",
+        "keyboard reachable",
+        "visible focus state"
+      ],
+      "agentNotes": [
+        "Prefer the documented variant API over styling strings.",
+        "Inspect the registry before composing."
+      ]
+    },
+    {
+      "name": "Tree",
+      "category": "data",
+      "description": "Tree with StyleX tokens and an agent-readable contract.",
+      "status": "implemented",
+      "sourceFiles": ["src/components/components.tsx"],
+      "exportName": "Tree",
+      "states": ["default", "focus", "disabled"],
+      "accessibility": [
+        "semantic HTML",
+        "keyboard reachable",
+        "visible focus state"
+      ],
+      "agentNotes": [
+        "Prefer the documented variant API over styling strings.",
+        "Inspect the registry before composing."
+      ]
+    },
+    {
+      "name": "FileList",
+      "category": "data",
+      "description": "FileList with StyleX tokens and an agent-readable contract.",
+      "status": "implemented",
+      "sourceFiles": ["src/components/components.tsx"],
+      "exportName": "FileList",
+      "states": ["default", "focus", "disabled"],
+      "accessibility": [
+        "semantic HTML",
+        "keyboard reachable",
+        "visible focus state"
+      ],
+      "agentNotes": [
+        "Prefer the documented variant API over styling strings.",
+        "Inspect the registry before composing."
+      ]
+    },
+    {
+      "name": "DiffViewer",
+      "category": "data",
+      "description": "DiffViewer with StyleX tokens and an agent-readable contract.",
+      "status": "implemented",
+      "sourceFiles": ["src/components/components.tsx"],
+      "exportName": "DiffViewer",
+      "states": ["default", "focus", "disabled"],
+      "accessibility": [
+        "semantic HTML",
+        "keyboard reachable",
+        "visible focus state"
+      ],
+      "agentNotes": [
+        "Prefer the documented variant API over styling strings.",
+        "Inspect the registry before composing."
+      ]
+    },
+    {
+      "name": "ResizablePanels",
+      "category": "data",
+      "description": "ResizablePanels with StyleX tokens and an agent-readable contract.",
+      "status": "implemented",
+      "sourceFiles": ["src/components/components.tsx"],
+      "exportName": "ResizablePanels",
+      "states": ["default", "focus", "disabled"],
+      "accessibility": [
+        "semantic HTML",
+        "keyboard reachable",
+        "visible focus state"
+      ],
+      "agentNotes": [
+        "Prefer the documented variant API over styling strings.",
+        "Inspect the registry before composing."
+      ]
+    },
+    {
+      "name": "PromptComposer",
+      "category": "agent",
+      "description": "A safe, clear input surface for agent instructions.",
+      "status": "implemented",
+      "sourceFiles": ["src/components/components.tsx"],
+      "exportName": "PromptComposer",
+      "states": ["default", "focus", "disabled"],
+      "accessibility": [
+        "semantic HTML",
+        "keyboard reachable",
+        "visible focus state"
+      ],
+      "agentNotes": [
+        "Prefer the documented variant API over styling strings.",
+        "Inspect the registry before composing."
+      ]
+    },
+    {
+      "name": "Conversation",
+      "category": "agent",
+      "description": "Conversation with StyleX tokens and an agent-readable contract.",
+      "status": "implemented",
+      "sourceFiles": ["src/components/components.tsx"],
+      "exportName": "Conversation",
+      "states": ["default", "focus", "disabled"],
+      "accessibility": [
+        "semantic HTML",
+        "keyboard reachable",
+        "visible focus state"
+      ],
+      "agentNotes": [
+        "Prefer the documented variant API over styling strings.",
+        "Inspect the registry before composing."
+      ]
+    },
+    {
+      "name": "Message",
+      "category": "agent",
+      "description": "Message with StyleX tokens and an agent-readable contract.",
+      "status": "implemented",
+      "sourceFiles": ["src/components/components.tsx"],
+      "exportName": "Message",
+      "states": ["default", "focus", "disabled"],
+      "accessibility": [
+        "semantic HTML",
+        "keyboard reachable",
+        "visible focus state"
+      ],
+      "agentNotes": [
+        "Prefer the documented variant API over styling strings.",
+        "Inspect the registry before composing."
+      ]
+    },
+    {
+      "name": "MessageGroup",
+      "category": "agent",
+      "description": "MessageGroup with StyleX tokens and an agent-readable contract.",
+      "status": "implemented",
+      "sourceFiles": ["src/components/components.tsx"],
+      "exportName": "MessageGroup",
+      "states": ["default", "focus", "disabled"],
+      "accessibility": [
+        "semantic HTML",
+        "keyboard reachable",
+        "visible focus state"
+      ],
+      "agentNotes": [
+        "Prefer the documented variant API over styling strings.",
+        "Inspect the registry before composing."
+      ]
+    },
+    {
+      "name": "StreamingText",
+      "category": "agent",
+      "description": "StreamingText with StyleX tokens and an agent-readable contract.",
+      "status": "implemented",
+      "sourceFiles": ["src/components/components.tsx"],
+      "exportName": "StreamingText",
+      "states": ["default", "focus", "disabled"],
+      "accessibility": [
+        "semantic HTML",
+        "keyboard reachable",
+        "visible focus state"
+      ],
+      "agentNotes": [
+        "Prefer the documented variant API over styling strings.",
+        "Inspect the registry before composing."
+      ]
+    },
+    {
+      "name": "ToolCall",
+      "category": "agent",
+      "description": "A transparent record of an agent tool invocation.",
+      "status": "implemented",
+      "sourceFiles": ["src/components/components.tsx"],
+      "exportName": "ToolCall",
+      "states": ["default", "focus", "disabled"],
+      "accessibility": [
+        "semantic HTML",
+        "keyboard reachable",
+        "visible focus state"
+      ],
+      "agentNotes": [
+        "Prefer the documented variant API over styling strings.",
+        "Inspect the registry before composing."
+      ]
+    },
+    {
+      "name": "ToolStatus",
+      "category": "agent",
+      "description": "ToolStatus with StyleX tokens and an agent-readable contract.",
+      "status": "implemented",
+      "sourceFiles": ["src/components/components.tsx"],
+      "exportName": "ToolStatus",
+      "states": ["default", "focus", "disabled"],
+      "accessibility": [
+        "semantic HTML",
+        "keyboard reachable",
+        "visible focus state"
+      ],
+      "agentNotes": [
+        "Prefer the documented variant API over styling strings.",
+        "Inspect the registry before composing."
+      ]
+    },
+    {
+      "name": "ApprovalCard",
+      "category": "agent",
+      "description": "A visible human gate before a consequential agent action.",
+      "status": "implemented",
+      "sourceFiles": ["src/components/components.tsx"],
+      "exportName": "ApprovalCard",
+      "states": ["default", "focus", "disabled"],
+      "accessibility": [
+        "semantic HTML",
+        "keyboard reachable",
+        "visible focus state"
+      ],
+      "agentNotes": [
+        "Prefer the documented variant API over styling strings.",
+        "Inspect the registry before composing."
+      ]
+    },
+    {
+      "name": "HumanApproval",
+      "category": "agent",
+      "description": "HumanApproval with StyleX tokens and an agent-readable contract.",
+      "status": "implemented",
+      "sourceFiles": ["src/components/components.tsx"],
+      "exportName": "HumanApproval",
+      "states": ["default", "focus", "disabled"],
+      "accessibility": [
+        "semantic HTML",
+        "keyboard reachable",
+        "visible focus state"
+      ],
+      "agentNotes": [
+        "Prefer the documented variant API over styling strings.",
+        "Inspect the registry before composing."
+      ]
+    },
+    {
+      "name": "RunTimeline",
+      "category": "agent",
+      "description": "RunTimeline with StyleX tokens and an agent-readable contract.",
+      "status": "implemented",
+      "sourceFiles": ["src/components/components.tsx"],
+      "exportName": "RunTimeline",
+      "states": ["default", "focus", "disabled"],
+      "accessibility": [
+        "semantic HTML",
+        "keyboard reachable",
+        "visible focus state"
+      ],
+      "agentNotes": [
+        "Prefer the documented variant API over styling strings.",
+        "Inspect the registry before composing."
+      ]
+    },
+    {
+      "name": "CitationList",
+      "category": "agent",
+      "description": "CitationList with StyleX tokens and an agent-readable contract.",
+      "status": "implemented",
+      "sourceFiles": ["src/components/components.tsx"],
+      "exportName": "CitationList",
+      "states": ["default", "focus", "disabled"],
+      "accessibility": [
+        "semantic HTML",
+        "keyboard reachable",
+        "visible focus state"
+      ],
+      "agentNotes": [
+        "Prefer the documented variant API over styling strings.",
+        "Inspect the registry before composing."
+      ]
+    },
+    {
+      "name": "SourceCard",
+      "category": "agent",
+      "description": "SourceCard with StyleX tokens and an agent-readable contract.",
+      "status": "implemented",
+      "sourceFiles": ["src/components/components.tsx"],
+      "exportName": "SourceCard",
+      "states": ["default", "focus", "disabled"],
+      "accessibility": [
+        "semantic HTML",
+        "keyboard reachable",
+        "visible focus state"
+      ],
+      "agentNotes": [
+        "Prefer the documented variant API over styling strings.",
+        "Inspect the registry before composing."
+      ]
+    },
+    {
+      "name": "ModelPicker",
+      "category": "agent",
+      "description": "ModelPicker with StyleX tokens and an agent-readable contract.",
+      "status": "implemented",
+      "sourceFiles": ["src/components/components.tsx"],
+      "exportName": "ModelPicker",
+      "states": ["default", "focus", "disabled"],
+      "accessibility": [
+        "semantic HTML",
+        "keyboard reachable",
+        "visible focus state"
+      ],
+      "agentNotes": [
+        "Prefer the documented variant API over styling strings.",
+        "Inspect the registry before composing."
+      ]
+    },
+    {
+      "name": "TokenUsage",
+      "category": "agent",
+      "description": "TokenUsage with StyleX tokens and an agent-readable contract.",
+      "status": "implemented",
+      "sourceFiles": ["src/components/components.tsx"],
+      "exportName": "TokenUsage",
+      "states": ["default", "focus", "disabled"],
+      "accessibility": [
+        "semantic HTML",
+        "keyboard reachable",
+        "visible focus state"
+      ],
+      "agentNotes": [
+        "Prefer the documented variant API over styling strings.",
+        "Inspect the registry before composing."
+      ]
+    },
+    {
+      "name": "ActivityFeed",
+      "category": "agent",
+      "description": "ActivityFeed with StyleX tokens and an agent-readable contract.",
+      "status": "implemented",
+      "sourceFiles": ["src/components/components.tsx"],
+      "exportName": "ActivityFeed",
+      "states": ["default", "focus", "disabled"],
+      "accessibility": [
+        "semantic HTML",
+        "keyboard reachable",
+        "visible focus state"
+      ],
+      "agentNotes": [
+        "Prefer the documented variant API over styling strings.",
+        "Inspect the registry before composing."
+      ]
+    }
+  ]
+}

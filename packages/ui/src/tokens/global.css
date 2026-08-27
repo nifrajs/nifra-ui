@@ -1,0 +1,119 @@
+:root {
+  color-scheme: light;
+  --nui-bg: #f4f5ef;
+  --nui-surface: #ffffff;
+  --nui-surface-raised: #fbfcf8;
+  --nui-surface-inset: #e9ece5;
+  --nui-text: #18201e;
+  --nui-text-muted: #64706b;
+  --nui-text-faint: #89938e;
+  --nui-border: #d8ded8;
+  --nui-border-strong: #b9c4bc;
+  --nui-accent: #1d7a5a;
+  --nui-accent-strong: #11563f;
+  --nui-accent-text: #ffffff;
+  --nui-danger: #c43d4e;
+  --nui-success: #217d5c;
+  --nui-warning: #b66b15;
+  --nui-info: #336fb1;
+  --nui-focus: #d17c29;
+  --nui-focus-ring: rgba(209, 124, 41, 0.24);
+  --nui-accent-soft: rgba(29, 122, 90, 0.15);
+  --nui-danger-soft: rgba(196, 61, 78, 0.08);
+  --nui-danger-border: rgba(196, 61, 78, 0.42);
+  --nui-shadow: 0 12px 32px rgba(25, 44, 34, 0.08);
+  --nui-shadow-strong: 0 22px 54px rgba(25, 44, 34, 0.16);
+  --nui-radius-sm: 6px;
+  --nui-radius-md: 10px;
+  --nui-radius-lg: 16px;
+  --nui-font-sans: "Avenir Next", "Trebuchet MS", sans-serif;
+  --nui-font-mono: "SFMono-Regular", Consolas, monospace;
+}
+
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --nui-bg: #101513;
+  --nui-surface: #171d1a;
+  --nui-surface-raised: #202923;
+  --nui-surface-inset: #0d120f;
+  --nui-text: #e8eee8;
+  --nui-text-muted: #a3b0a8;
+  --nui-text-faint: #748078;
+  --nui-border: #2f3a33;
+  --nui-border-strong: #52635a;
+  --nui-accent: #65d0a4;
+  --nui-accent-strong: #91e5c0;
+  --nui-accent-text: #092017;
+  --nui-danger: #ff7180;
+  --nui-success: #6bd4a7;
+  --nui-warning: #f1ae5a;
+  --nui-info: #7eb7f1;
+  --nui-focus: #f0b05c;
+  --nui-focus-ring: rgba(240, 176, 92, 0.28);
+  --nui-accent-soft: rgba(101, 208, 164, 0.16);
+  --nui-danger-soft: rgba(255, 113, 128, 0.12);
+  --nui-danger-border: rgba(255, 113, 128, 0.5);
+  --nui-shadow: 0 12px 32px rgba(0, 0, 0, 0.24);
+  --nui-shadow-strong: 0 22px 54px rgba(0, 0, 0, 0.42);
+}
+
+:root[data-theme="high-contrast"] {
+  color-scheme: dark;
+  --nui-bg: #000000;
+  --nui-surface: #090909;
+  --nui-surface-raised: #141414;
+  --nui-surface-inset: #000000;
+  --nui-text: #ffffff;
+  --nui-text-muted: #eeeeee;
+  --nui-text-faint: #cfcfcf;
+  --nui-border: #ffffff;
+  --nui-border-strong: #ffffff;
+  --nui-accent: #00ffb0;
+  --nui-accent-strong: #00ffb0;
+  --nui-accent-text: #000000;
+  --nui-focus: #ffff00;
+  --nui-focus-ring: #ffff00;
+  --nui-accent-soft: #002f20;
+  --nui-danger-soft: #310008;
+  --nui-danger-border: #ffffff;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+html {
+  background: var(--nui-bg);
+}
+body {
+  margin: 0;
+  background: var(--nui-bg);
+  color: var(--nui-text);
+  font-family: var(--nui-font-sans);
+}
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}
+button {
+  cursor: pointer;
+}
+button:disabled {
+  cursor: not-allowed;
+}
+::selection {
+  background: color-mix(in srgb, var(--nui-accent) 28%, transparent);
+}
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    scroll-behavior: auto !important;
+    transition-duration: 0.01ms !important;
+  }
+}

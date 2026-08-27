@@ -1,0 +1,26 @@
+{
+  "name": "@nifrajs/ui-registry",
+  "version": "0.1.0",
+  "description": "Machine-readable component contracts for Nifra UI.",
+  "type": "module",
+  "license": "MIT",
+  "files": [
+    "dist",
+    "src",
+    "schemas",
+    "registry.json",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json"
+  },
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    },
+    "./schema": "./schemas/component.schema.json",
+    "./registry.json": "./registry.json"
+  }
+}
