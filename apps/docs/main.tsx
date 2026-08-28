@@ -18,6 +18,7 @@ import {
   screenManifests,
   WorkspaceSettingsScreen,
 } from "@nifrajs/ui-screens"
+import "../../packages/ui/src/tokens/global.css"
 import "../../packages/ui-elements/src/styles.css"
 import "../../packages/ui-elements/src/index"
 import {

@@ -40,6 +40,8 @@ body {
   overflow-x: clip;
   background: var(--nui-bg);
   color: var(--nui-text);
+  font-family: var(--page-display);
+  -webkit-font-smoothing: antialiased;
 }
 button,
 input,
