@@ -27,7 +27,10 @@ export function stylexVite() {
           syntaxJsx,
           stylexPlugin.withOptions({
             dev: true,
-            runtimeInjection: false,
+            // The docs are a live component catalogue, so inject compiled
+            // rules as modules execute. This keeps both Vite dev and the
+            // static preview styled even before an aggregate sheet is loaded.
+            runtimeInjection: true,
             treeshakeCompensation: true,
             unstable_moduleResolution: {
               type: "commonJS",

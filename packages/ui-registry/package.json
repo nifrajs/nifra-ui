@@ -1,9 +1,19 @@
 {
   "name": "@nifrajs/ui-registry",
-  "version": "0.1.0",
+  "version": "0.1.0-alpha.1",
   "description": "Machine-readable component contracts for Nifra UI.",
   "type": "module",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nifrajs/nifra-ui.git",
+    "directory": "packages/ui-registry"
+  },
+  "bugs": "https://github.com/nifrajs/nifra-ui/issues",
+  "homepage": "https://ui.nifra.dev",
+  "publishConfig": {
+    "access": "public"
+  },
   "files": [
     "dist",
     "src",
@@ -22,5 +32,8 @@
     },
     "./schema": "./schemas/component.schema.json",
     "./registry.json": "./registry.json"
+  },
+  "dependencies": {
+    "@nifrajs/ui-adapters": "^0.1.0-alpha.1"
   }
 }

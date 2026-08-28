@@ -3,6 +3,10 @@
   "private": true,
   "type": "module",
   "packageManager": "bun@1.4.0",
+  "license": "MIT",
+  "repository": "https://github.com/nifrajs/nifra-ui.git",
+  "homepage": "https://ui.nifra.dev",
+  "bugs": "https://github.com/nifrajs/nifra-ui/issues",
   "workspaces": [
     "packages/*",
     "apps/*"
@@ -10,16 +14,25 @@
   "scripts": {
     "dev": "vite --config apps/docs/vite.config.ts",
     "build": "bun run build:packages && vite build --config apps/docs/vite.config.ts",
-    "build:packages": "bun run build:ui && bun run build:registry && bun run build:cli && bun run build:mcp",
+    "build:packages": "bun run build:ui && bun run build:elements && bun run build:adapters && bun run build:registry && bun run build:screens && bun run build:cli && bun run build:mcp",
     "build:ui": "tsc -p packages/ui/tsconfig.build.json && bun run scripts/copy-ui-assets.ts",
+    "build:elements": "tsc -p packages/ui-elements/tsconfig.build.json && bun run scripts/copy-elements-assets.ts",
+    "build:adapters": "bun run build:adapters-contract && bun run build:vue && bun run build:svelte && bun run build:solid",
+    "build:adapters-contract": "tsc -p packages/ui-adapters/tsconfig.build.json",
+    "build:vue": "tsc -p packages/ui-vue/tsconfig.build.json && bun run scripts/copy-adapter-assets.ts packages/ui-vue",
+    "build:svelte": "tsc -p packages/ui-svelte/tsconfig.build.json && bun run scripts/copy-adapter-assets.ts packages/ui-svelte",
+    "build:solid": "tsc -p packages/ui-solid/tsconfig.build.json && bun run scripts/copy-adapter-assets.ts packages/ui-solid",
     "build:registry": "tsc -p packages/ui-registry/tsconfig.build.json",
+    "build:screens": "tsc -p packages/ui-screens/tsconfig.build.json",
     "build:cli": "bun build packages/ui-cli/src/index.ts --outfile packages/ui-cli/dist/index.js --target bun --format esm",
     "build:mcp": "bun build packages/ui-mcp/src/index.ts --outfile packages/ui-mcp/dist/index.js --target bun --format esm",
     "typecheck": "tsc --noEmit",
     "test": "bun test",
     "lint": "biome check .",
     "format": "biome format --write .",
-    "check": "bun run lint && bun run registry:check && bun run typecheck && bun run test && bun run build",
+    "check:alpha": "bun run scripts/check-alpha.ts",
+    "release:check": "bun run check",
+    "check": "bun run lint && bun run registry:check && bun run check:alpha && bun run typecheck && bun run test && bun run build",
     "registry:check": "bun run packages/ui-registry/src/check.ts",
     "registry:generate": "bun run packages/ui-registry/src/generate.ts"
   },
@@ -39,8 +52,11 @@
     "@vitejs/plugin-react": "^5.0.4",
     "react": "19.2.7",
     "react-dom": "19.2.7",
+    "solid-js": "^1.9.0",
+    "svelte": "^5.0.0",
     "typescript": "^6.0.3",
-    "vite": "^8.2.1"
+    "vite": "^8.2.1",
+    "vue": "^3.5.0"
   },
   "dependencies": {
     "@radix-ui/react-dialog": "^1.1.15",

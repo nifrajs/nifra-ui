@@ -1,0 +1,40 @@
+{
+  "name": "@nifrajs/ui-solid",
+  "version": "0.1.0-alpha.1",
+  "description": "Solid adapter for the cross-framework Nifra UI core.",
+  "type": "module",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nifrajs/nifra-ui.git",
+    "directory": "packages/ui-solid"
+  },
+  "bugs": "https://github.com/nifrajs/nifra-ui/issues",
+  "homepage": "https://ui.nifra.dev",
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "dist",
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json && bun run ../../scripts/copy-adapter-assets.ts packages/ui-solid"
+  },
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    },
+    "./styles.css": "./dist/styles.css"
+  },
+  "dependencies": {
+    "@nifrajs/ui-adapters": "^0.1.0-alpha.1",
+    "@nifrajs/ui-elements": "^0.1.0-alpha.1"
+  },
+  "peerDependencies": {
+    "solid-js": ">=1.8.0"
+  }
+}

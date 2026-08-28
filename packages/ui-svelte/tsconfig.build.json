@@ -1,0 +1,16 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "noEmit": false,
+    "declaration": true,
+    "declarationMap": false,
+    "outDir": "dist",
+    "rootDir": "src",
+    "sourceMap": true,
+    "paths": {
+      "@nifrajs/ui-adapters": ["packages/ui-adapters/dist/index.d.ts"],
+      "@nifrajs/ui-elements": ["packages/ui-elements/dist/index.d.ts"]
+    }
+  },
+  "include": ["src/index.ts", "src/svelte.d.ts"]
+}

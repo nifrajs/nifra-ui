@@ -1,0 +1,15 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "noEmit": false,
+    "declaration": true,
+    "declarationMap": false,
+    "outDir": "dist",
+    "rootDir": "src",
+    "sourceMap": true,
+    "paths": {
+      "@nifrajs/ui": ["packages/ui/dist/index.d.ts"]
+    }
+  },
+  "include": ["src"]
+}

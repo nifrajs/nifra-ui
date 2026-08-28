@@ -1,0 +1,48 @@
+name: Publish packages
+
+on:
+  workflow_dispatch:
+    inputs:
+      publish:
+        description: Publish 0.1.0-alpha.1 to npm (set true only after review)
+        required: true
+        default: false
+        type: boolean
+
+permissions:
+  contents: read
+  id-token: write
+
+jobs:
+  publish:
+    if: ${{ inputs.publish == true }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: oven-sh/setup-bun@v2
+        with:
+          bun-version: "1.4.0"
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          registry-url: https://registry.npmjs.org
+      - run: bun install --frozen-lockfile
+      - run: bun run check
+      - name: Publish alpha packages
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+        run: |
+          for package in \
+            ui-adapters \
+            ui-elements \
+            ui \
+            ui-vue \
+            ui-svelte \
+            ui-solid \
+            ui-screens \
+            ui-registry \
+            ui-cli \
+            ui-mcp
+          do
+            npm publish "./packages/$package" --access public --provenance
+          done

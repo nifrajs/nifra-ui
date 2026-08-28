@@ -5,6 +5,7 @@ import { stylexVite } from "./stylex-vite.js"
 
 export default defineConfig({
   root: resolve(import.meta.dirname),
+  base: process.env.VITE_BASE_PATH ?? "/",
   plugins: [stylexVite(), react()],
   resolve: {
     alias: {
@@ -15,6 +16,14 @@ export default defineConfig({
       "@nifrajs/ui-registry": resolve(
         import.meta.dirname,
         "../../packages/ui-registry/src/index.ts",
+      ),
+      "@nifrajs/ui-adapters": resolve(
+        import.meta.dirname,
+        "../../packages/ui-adapters/src/index.ts",
+      ),
+      "@nifrajs/ui-screens": resolve(
+        import.meta.dirname,
+        "../../packages/ui-screens/src/index.ts",
       ),
     },
   },

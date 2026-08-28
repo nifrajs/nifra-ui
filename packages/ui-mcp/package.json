@@ -1,9 +1,19 @@
 {
   "name": "@nifrajs/ui-mcp",
-  "version": "0.1.0",
+  "version": "0.1.0-alpha.1",
   "description": "A small MCP server for agent-readable Nifra UI contracts.",
   "type": "module",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nifrajs/nifra-ui.git",
+    "directory": "packages/ui-mcp"
+  },
+  "bugs": "https://github.com/nifrajs/nifra-ui/issues",
+  "homepage": "https://ui.nifra.dev",
+  "publishConfig": {
+    "access": "public"
+  },
   "files": [
     "dist",
     "src",
@@ -19,10 +29,10 @@
   "exports": {
     ".": {
       "types": "./src/index.ts",
-      "import": "./src/index.ts"
+      "import": "./dist/index.js"
     }
   },
   "dependencies": {
-    "@nifrajs/ui-registry": "workspace:*"
+    "@nifrajs/ui-registry": "^0.1.0-alpha.1"
   }
 }

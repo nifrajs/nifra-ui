@@ -1,9 +1,19 @@
 {
   "name": "@nifrajs/ui",
-  "version": "0.1.0",
+  "version": "0.1.0-alpha.1",
   "description": "Source-owned, StyleX-powered UI components for humans and coding agents.",
   "type": "module",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nifrajs/nifra-ui.git",
+    "directory": "packages/ui"
+  },
+  "bugs": "https://github.com/nifrajs/nifra-ui/issues",
+  "homepage": "https://ui.nifra.dev",
+  "publishConfig": {
+    "access": "public"
+  },
   "sideEffects": [
     "**/*.css"
   ],

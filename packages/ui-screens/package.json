@@ -1,0 +1,40 @@
+{
+  "name": "@nifrajs/ui-screens",
+  "version": "0.1.0-alpha.1",
+  "description": "Original, source-owned screen recipes for Nifra UI.",
+  "type": "module",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nifrajs/nifra-ui.git",
+    "directory": "packages/ui-screens"
+  },
+  "bugs": "https://github.com/nifrajs/nifra-ui/issues",
+  "homepage": "https://ui.nifra.dev",
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "dist",
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json"
+  },
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    },
+    "./manifest": {
+      "types": "./dist/screen-manifest.d.ts",
+      "import": "./dist/screen-manifest.js"
+    }
+  },
+  "peerDependencies": {
+    "@nifrajs/ui": ">=0.1.0-alpha.1",
+    "react": ">=18.3.0"
+  }
+}

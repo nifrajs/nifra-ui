@@ -15,7 +15,13 @@
     "baseUrl": ".",
     "paths": {
       "@nifrajs/ui": ["packages/ui/src/index.ts"],
-      "@nifrajs/ui-registry": ["packages/ui-registry/src/index.ts"]
+      "@nifrajs/ui-elements": ["packages/ui-elements/src/index.ts"],
+      "@nifrajs/ui-adapters": ["packages/ui-adapters/src/index.ts"],
+      "@nifrajs/ui-vue": ["packages/ui-vue/src/index.ts"],
+      "@nifrajs/ui-svelte": ["packages/ui-svelte/src/index.ts"],
+      "@nifrajs/ui-solid": ["packages/ui-solid/src/index.tsx"],
+      "@nifrajs/ui-registry": ["packages/ui-registry/src/index.ts"],
+      "@nifrajs/ui-screens": ["packages/ui-screens/src/index.ts"]
     }
   },
   "include": ["packages", "apps", "tests"]

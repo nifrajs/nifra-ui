@@ -6,7 +6,10 @@
     "declarationMap": false,
     "outDir": "dist",
     "rootDir": "src",
-    "sourceMap": true
+    "sourceMap": true,
+    "paths": {
+      "@nifrajs/ui-adapters": ["packages/ui-adapters/dist/index.d.ts"]
+    }
   },
   "include": ["src/index.ts"]
 }
