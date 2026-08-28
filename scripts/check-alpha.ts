@@ -7,6 +7,7 @@ import { catalog } from "../packages/ui-registry/src/index.ts"
 
 const workspace = resolve(import.meta.dir, "..")
 const alphaVersion = "0.1.0-alpha.1"
+const publicRepositoryUrl = "https://github.com/nifrajs/nifra-ui.git"
 const packageDirectories = [
   "ui",
   "ui-adapters",
@@ -42,7 +43,8 @@ for (const directory of packageDirectories) {
     fail(`${manifest.name} is ${manifest.version}, expected ${alphaVersion}`)
   if (manifest.license !== "MIT")
     fail(`${manifest.name} is missing MIT license`)
-  if (manifest.repository?.url !== "https://github.com/nifrajs/nifra-ui.git")
+  const repositoryUrl = manifest.repository?.url?.replace(/^git\+/, "")
+  if (repositoryUrl !== publicRepositoryUrl)
     fail(`${manifest.name} is missing the public repository URL`)
   if (manifest.publishConfig?.access !== "public")
     fail(`${manifest.name} is not marked public in publishConfig`)

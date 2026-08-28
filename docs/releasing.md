@@ -38,7 +38,9 @@ then publishes the packages in dependency order with public access and npm
 provenance enabled.
 
 The workflow is intentionally manual. Creating a commit, pushing a tag, or
-running the workflow does not happen as part of local development.
+running the workflow does not happen as part of local development. Publishing
+is performed from each package directory so npm preserves package-local `bin`
+paths, and the prerelease is published under the `alpha` dist-tag.
 
 ## Package order and scope
 

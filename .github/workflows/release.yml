@@ -44,5 +44,5 @@ jobs:
             ui-cli \
             ui-mcp
           do
-            npm publish "./packages/$package" --access public --provenance
+            (cd "packages/$package" && npm publish --access public --tag alpha --provenance)
           done

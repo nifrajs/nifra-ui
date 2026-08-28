@@ -6,7 +6,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/nifrajs/nifra-ui.git",
+    "url": "git+https://github.com/nifrajs/nifra-ui.git",
     "directory": "packages/ui-cli"
   },
   "bugs": "https://github.com/nifrajs/nifra-ui/issues",
@@ -24,7 +24,7 @@
     "build": "bun build src/index.ts --outfile dist/index.js --target bun --format esm"
   },
   "bin": {
-    "nifra-ui": "./dist/index.js"
+    "nifra-ui": "dist/index.js"
   },
   "exports": {
     ".": {
